@@ -1,0 +1,6 @@
+VIEW MyService_StandardSet AS SELECT
+  standards_0.ID,
+  standards_0.CLASSNAME,
+  standards_0.SECTIONS,
+  standards_0.CLASSTEACHER
+FROM db1_master_standards AS standards_0
